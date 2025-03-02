@@ -1,0 +1,106 @@
+/* Contenedor general */
+.user-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Encabezado */
+.welcome h1 {
+  color: var(--color-primary-900);
+}
+
+.welcome h2 {
+  color: var(--primary-color);
+}
+
+/* Barra de niveles */
+.levels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+/* Contenedor del icono del nivel */
+.level__icon-container {
+  width: 80px; /* Tamaño mayor para incluir el borde */
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 4px solid var(--primary-color); /* Stroke rosa por defecto */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estado del nivel: activo o bloqueado */
+.level__icon-container.active {
+  border-color: var(--primary-color); /* Contorno rosa */
+}
+
+.level__icon-container.locked {
+  border-color: var(--color-neutral-400); /* Contorno gris claro */
+  opacity: 0.5; /* Semi-transparente */
+}
+
+/* Líneas entre niveles */
+.level__line {
+  height: 2px;
+  flex-grow: 1;
+  background-color: var(--color-neutral-400); /* Línea gris claro */
+  transition: background-color 0.3s ease;
+}
+
+.level__line.active {
+  background-color: var(--primary-color); /* Línea activa rosa */
+}
+
+.level__line.locked {
+  background-color: var(--color-neutral-400); /* Línea bloqueada gris */
+}
+
+.level__line {
+  height: 2px;
+  flex-grow: 1;
+  background-color: var(--color-neutral-400); /* Línea gris claro */
+  transition: background-color 0.3s ease;
+}
+
+.level__line.active {
+  background-color: var(--primary-color); /* Línea activa rosa */
+}
+
+.level__line.locked {
+  background-color: var(--color-neutral-400); /* Línea bloqueada gris */
+}
+
+.level-title {
+  font-family: DM Sans;
+font-size: 24px;
+font-weight: 900;
+line-height: 24.74px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--color-primary-900);
+
+}
+
+.level-subtitle {
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 900;
+line-height: 24.74px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--color-neutral-600);
+
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/plataforma/plataforma-ingles/components/exercises/AlphabetExercise.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React, { useState } from \"react\";\r\n\r\nconst AlphabetExercise = () => {\r\n  const [answer, setAnswer] = useState(\"\");\r\n\r\n  return (\r\n    <div>\r\n      <h1>Ejercicio del Alfabeto</h1>\r\n      <p>¿Cuál es la primera letra del alfabeto?</p>\r\n      <input\r\n        type=\"text\"\r\n        value={answer}\r\n        onChange={(e) => setAnswer(e.target.value)}\r\n        className=\"border p-2\"\r\n      />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default AlphabetExercise;\r\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIA,MAAM,mBAAmB;IACvB,MAAM,CAAC,QAAQ,UAAU,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;IAErC,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;gBACC,MAAK;gBACL,OAAO;gBACP,UAAU,CAAC,IAAM,UAAU,EAAE,MAAM,CAAC,KAAK;gBACzC,WAAU;;;;;;;;;;;;AAIlB;uCAEe"}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

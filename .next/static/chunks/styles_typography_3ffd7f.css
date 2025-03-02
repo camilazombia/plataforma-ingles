@@ -1,0 +1,116 @@
+/* [project]/styles/typography.css [app-client] (css, ) */
+.p16 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.83px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-700);
+}
+
+.p14 {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.23px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-600);
+}
+
+.p12 {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.62px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-900);
+}
+
+.placeholder {
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.p10 {
+  font-family: DM Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.02px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-600);
+}
+
+.label {
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: auto;
+}
+
+.button {
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: auto;
+}
+
+h2 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-900);
+}
+
+.h32 {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 41.66px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-900);
+}
+
+.h24 {
+  font-family: DM Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: auto;
+  color: var(--color-neutral-600);
+  text-align: center;
+}
+
+.heading-level {
+  font-family: DM Sans, sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 23.67px;
+  letter-spacing: 0%;
+  color: var(--color-primary-900);
+}
+
+.subtitle-level {
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.67px;
+  letter-spacing: 0%;
+  color: var(--color-neutral-600);
+}
+
+/*# sourceMappingURL=styles_typography_3ffd7f.css.map*/

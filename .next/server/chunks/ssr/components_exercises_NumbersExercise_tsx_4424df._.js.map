@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/plataforma/plataforma-ingles/components/exercises/NumbersExercise.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from \"react\";\r\n\r\nconst NumbersPractice = () => {\r\n  return (\r\n    <div>\r\n      <h1>Práctica de Números</h1>\r\n      <p>Escribe los números del 1 al 10 en inglés.</p>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default NumbersPractice;\r\n"],"names":[],"mappings":";;;;AAAA;;AAIA,MAAM,kBAAkB;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGT;uCAEe"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

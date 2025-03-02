@@ -1,0 +1,68 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --background: #fff;
+  --foreground: #000;
+}
+
+.dark {
+  --background: #1a202c;
+  --foreground: #f7fafc;
+}
+
+:root {
+  --purple-light: #d1c4e9;
+  --gray-light: #e0e0e0;
+  --icon-active: #fff;
+  --icon-inactive: #9e9e9e;
+}
+
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 80px;
+  height: 40px;
+  background-color: var(--gray-light);
+  border-radius: 9999px;
+  padding: 4px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.theme-switcher.dark {
+  background-color: var(--purple-light);
+}
+
+.theme-switcher .toggle-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px #0000001a;
+  transition: transform .3s;
+}
+
+.theme-switcher .toggle-icon.light {
+  transform: translateX(40px);
+}
+
+.theme-switcher .icon {
+  width: 20px;
+  height: 20px;
+  transition: color .3s;
+}
+
+.theme-switcher.dark .icon-moon {
+  color: var(--icon-active);
+}
+
+.theme-switcher .icon-sun {
+  color: var(--icon-inactive);
+}
+
+/*# sourceMappingURL=app_globals_b52d8e.css.map*/

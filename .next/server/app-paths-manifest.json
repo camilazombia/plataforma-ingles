@@ -1,0 +1,12 @@
+{
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/progress/module/[id]/page": "app/progress/module/[id]/page.js",
+  "/resources/page": "app/resources/page.js",
+  "/support/page": "app/support/page.js",
+  "/certificates/page": "app/certificates/page.js",
+  "/resources/[id]/page": "app/resources/[id]/page.js",
+  "/progress/module/[id]/exam/page": "app/progress/module/[id]/exam/page.js",
+  "/exams/[moduleId]/page": "app/exams/[moduleId]/page.js"
+}

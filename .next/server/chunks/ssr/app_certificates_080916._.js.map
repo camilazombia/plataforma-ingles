@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/plataforma/plataforma-ingles/app/certificates/CertificatesPage.tsx"],"sourcesContent":["\"use client\"; // ✅ Si es un componente de React en el frontend\r\n\r\nimport Image from \"next/image\";\r\n\r\nexport default function CertificatesPage() {\r\n  return (\r\n    <div className=\"p-6 relative\">\r\n      {/* Imagen en la esquina superior derecha */}\r\n      <Image\r\n        src=\"/assets/icons/unlock.svg\"\r\n        alt=\"Desbloqueado\"\r\n        width={24}\r\n        height={24}\r\n        priority\r\n      />\r\n\r\n      <h1 className=\"text-2xl font-bold text-center mb-6\">\r\n        Tus Certificaciones\r\n      </h1>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;AAFA,cAAc,gDAAgD;;;AAI/C,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BAEb,8OAAC,6HAAA,CAAA,UAAK;gBACJ,KAAI;gBACJ,KAAI;gBACJ,OAAO;gBACP,QAAQ;gBACR,QAAQ;;;;;;0BAGV,8OAAC;gBAAG,WAAU;0BAAsC;;;;;;;;;;;;AAK1D"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/plataforma/plataforma-ingles/components/exercises/PronunciationGuide.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from \"react\";\r\n\r\nconst PronunciationGuide = () => {\r\n  return (\r\n    <div>\r\n      <h2 className=\"text-xl font-bold\">Guía de Pronunciación</h2>\r\n      <p>Aprende a pronunciar correctamente con esta guía.</p>\r\n      {/* Aquí iría el contenido del ejercicio */}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default PronunciationGuide;\r\n"],"names":[],"mappings":";;;;AAAA;;AAIA,MAAM,qBAAqB;IACzB,qBACE,8OAAC;;0BACC,8OAAC;gBAAG,WAAU;0BAAoB;;;;;;0BAClC,8OAAC;0BAAE;;;;;;;;;;;;AAIT;uCAEe"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

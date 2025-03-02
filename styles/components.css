@@ -1,0 +1,162 @@
+
+  
+  /* ========================
+     FORMULARIOS
+  ======================== */
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--color-primary-900);
+    background-color: var(--background-1);
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  }
+  
+  .dark input {
+    border-color: var(--color-neutral-400);
+    background-color: var(--background-1);
+    color: var(--color-base-100);
+  }
+  
+  input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.2);
+  }
+  
+  /* Mensaje de error */
+  .error-message {
+    font-size: 0.875rem; /* 14px */
+    color: var(--danger);
+    margin-top: 0.5rem;
+  }
+  
+  /* ========================
+     BOTONES
+  ======================== */
+  /* Botón primario */
+  .button--primary {
+    background-color: var(--primary-color);
+    color: var(--background-1);
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .button--primary:hover {
+    background-color: var(--color-primary-700);
+  }
+  
+  /* Botón secundario */
+  .button--secondary {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+  }
+  
+  .button--secondary:hover {
+    background-color: var(--primary-color);
+    color: var(--background-1);
+  }
+
+  .button--disabled{
+    background-color: var(--disabled-button-background);
+    color: var(--disabled-button-text);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+  }
+  
+  /* ========================
+     CHECKBOXES
+  ======================== */
+  .checkbox {
+    accent-color: var(--primary-color);
+    margin-right: 0.5rem;
+    width: 20px;
+  }
+  
+  /* ========================
+     ENLACES
+  ======================== */
+  .link {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: var(--color-primary-700);
+    text-decoration: underline;
+  }
+  
+  /* ========================
+     TEXTO DE AYUDA
+  ======================== */
+  .help-text {
+    font-size: 0.875rem;
+    color: var(--color-neutral-600);
+    text-align: center;
+  }
+
+
+    /* ========================
+     MODULE CARD
+  ======================== */
+
+  .module {
+    font-size: 1rem;
+    
+  }
+
+  .module-icon{
+    height: 1.8rem;
+    
+  }
+
+  .module-card-completed {
+    background-color: var(--background-3);
+    color: var(--color-primary-700);
+    
+  }
+
+  .module-card-active {
+    background-color: var(--primary-color);
+    color: var(--color-base-100);
+    
+  }
+
+  .module-card-locked {
+    background-color: var(--background-3);
+    color: var(--color-neutral-400);
+    
+  }
+
+  .card-level{
+    background-color:var(--background-2);
+    padding: 30px;
+    border-radius: 20px;
+}
+    
+
+

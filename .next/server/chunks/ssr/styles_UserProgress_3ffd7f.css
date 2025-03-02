@@ -1,0 +1,101 @@
+/* [project]/styles/UserProgress.css [app-client] (css, ) */
+.user-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.welcome h1 {
+  color: var(--color-primary-900);
+}
+
+.welcome h2 {
+  color: var(--primary-color);
+}
+
+.levels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.level__icon-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-1);
+  box-shadow: 0 4px 6px #0000001a;
+  border: 4px solid var(--primary-color);
+  transition: border-color .3s, box-shadow .3s;
+}
+
+.level__icon-container.active {
+  border-color: var(--primary-color);
+}
+
+.level__icon-container.locked {
+  border-color: var(--color-neutral-400);
+  opacity: .5;
+}
+
+.level__line {
+  height: 2px;
+  flex-grow: 1;
+  background-color: var(--color-neutral-400);
+  transition: background-color .3s;
+}
+
+.level__line.active {
+  background-color: var(--primary-color);
+}
+
+.level__line.locked {
+  background-color: var(--color-neutral-400);
+}
+
+.level__line {
+  height: 2px;
+  flex-grow: 1;
+  background-color: var(--color-neutral-400);
+  transition: background-color .3s;
+}
+
+.level__line.active {
+  background-color: var(--primary-color);
+}
+
+.level__line.locked {
+  background-color: var(--color-neutral-400);
+}
+
+.level-title {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24.74px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-900);
+}
+
+.level-subtitle {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24.74px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-neutral-600);
+}
+
+/*# sourceMappingURL=styles_UserProgress_3ffd7f.css.map*/

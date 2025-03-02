@@ -1,0 +1,16 @@
+{
+  "app": {
+    "[project]/app/page": [],
+    "[project]/app/_not-found/page": [],
+    "[project]/app/progress/module/[id]/page": [],
+    "[project]/app/resources/page": [],
+    "[project]/app/support/page": [],
+    "[project]/app/certificates/page": [],
+    "[project]/app/resources/[id]/page": [],
+    "[project]/app/progress/module/[id]/exam/page": [],
+    "[project]/app/exams/[moduleId]/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

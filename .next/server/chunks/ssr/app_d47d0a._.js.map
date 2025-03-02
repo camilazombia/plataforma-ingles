@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/plataforma/plataforma-ingles/app/dashboard/progress/components/Icon.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from \"react\";\r\nimport { useTheme } from \"next-themes\";\r\n\r\nconst Icon = ({ name }: { name: string }) => {\r\n  const { theme } = useTheme();\r\n  const iconPath = `/assets/${theme === \"dark\" ? \"dark\" : \"light\"}/${name}.svg`;\r\n\r\n  return <img src={iconPath} alt={`${name} icon`} className=\"w-6 h-6\" />;\r\n};\r\n\r\nexport default Icon;\r\n"],"names":[],"mappings":";;;;AAGA;AAHA;;;AAKA,MAAM,OAAO,CAAC,EAAE,IAAI,EAAoB;IACtC,MAAM,EAAE,KAAK,EAAE,GAAG,CAAA,GAAA,gJAAA,CAAA,WAAQ,AAAD;IACzB,MAAM,WAAW,CAAC,QAAQ,EAAE,UAAU,SAAS,SAAS,QAAQ,CAAC,EAAE,KAAK,IAAI,CAAC;IAE7E,qBAAO,8OAAC;QAAI,KAAK;QAAU,KAAK,GAAG,KAAK,KAAK,CAAC;QAAE,WAAU;;;;;;AAC5D;uCAEe"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,27 @@
+/* Estilos globales para LoginForm */
+
+
+
+/* Contenedor principal del formulario */
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Más separación entre los elementos */
+  }
+  
+  
+  /* Contenedor de cada input */
+  .container-input-group {
+    position: relative;
+    margin-bottom: 1rem; /* Espaciado entre campos */
+  }
+
+  .checkbox-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.875rem; /* text-sm */
+      color: var(--color-primary-900);
+  }
+  
+

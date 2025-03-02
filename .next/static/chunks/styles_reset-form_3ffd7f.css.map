@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/styles/reset-form.css"],"sourcesContent":["/* Contenedor principal */\r\n.reset-form {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 1rem;\r\n    background-color: var(--background-1); /* Fondo dinámico */\r\n    padding: 2rem;\r\n    border-radius: 12px;\r\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\r\n    max-width: 400px;\r\n    margin: 0 auto;\r\n  }\r\n  \r\n  \r\n  /* Grupo del campo de entrada */\r\n  .reset-form__input-group {\r\n    position: relative;\r\n  }\r\n  \r\n  /* Ícono del correo */\r\n  .reset-form__icon {\r\n    position: absolute;\r\n    left: 10px;\r\n    top: 50%;\r\n    transform: translateY(-50%);\r\n    width: 20px;\r\n    height: 20px;\r\n  }\r\n  "],"names":[],"mappings":"AACA;;;;;;;;;;;;AAcE;;;;AAKA"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
