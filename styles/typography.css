@@ -1,11 +1,26 @@
 /* Typography Styles */
 
+.p18 {
+  font-family: DM Sans;
+  font-size: 18px;
+}
+
+.p20 {
+  font-family: DM Sans;
+  font-size: 20px;
+}
+
+.p24 {
+  font-family: DM Sans;
+  font-size: 24px;
+}
+
+
 .p16 {
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 20.83px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--color-primary-700);
@@ -17,7 +32,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 18.23px;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--color-primary-600);
@@ -29,7 +43,6 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 15.62px;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--color-primary-900);
@@ -49,7 +62,6 @@
     font-size: 10px;
     font-weight: 400;
     line-height: 13.02px;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--color-primary-600);
@@ -74,7 +86,6 @@
     font-family: DM Sans;
     font-size: 18px;
     font-weight: 900;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--color-primary-900);
@@ -87,7 +98,6 @@
     font-size: 32px;
     font-weight: 900;
     line-height: 41.66px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--color-primary-900);
@@ -101,7 +111,6 @@
     font-weight: 900; /* Black */
     line-height: auto;
     color: var(--color-neutral-600);
-    text-align: center;
   }
   
 

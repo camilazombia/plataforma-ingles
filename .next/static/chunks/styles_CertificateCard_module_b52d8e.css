@@ -1,0 +1,138 @@
+/* [project]/styles/CertificateCard.module.css [app-client] (css) */
+.CertificateCard-module__ko5nrG__card {
+  position: relative;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px #0000001a;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  min-height: 500px;
+  background-color: var(--background-1);
+}
+
+.CertificateCard-module__ko5nrG__unlocked {
+  opacity: 1;
+}
+
+.CertificateCard-module__ko5nrG__locked {
+  opacity: .5;
+}
+
+.CertificateCard-module__ko5nrG__iconStatus {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.CertificateCard-module__ko5nrG__titleLevel {
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 24px;
+  font-family: DM Sans, sans-serif;
+  margin-bottom: 4px;
+}
+
+.CertificateCard-module__ko5nrG__titleLevelUnlocked {
+  color: var(--color-primary-900);
+}
+
+.CertificateCard-module__ko5nrG__titleLevelLocked {
+  color: var(--color-neutral-600);
+}
+
+.CertificateCard-module__ko5nrG__subtitleLevel {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: DM Sans, sans-serif;
+  margin-bottom: 16px;
+}
+
+.CertificateCard-module__ko5nrG__subtitleLevelUnlocked {
+  color: var(--color-neutral-600);
+}
+
+.CertificateCard-module__ko5nrG__subtitleLevelLocked {
+  color: var(--color-primary-700);
+}
+
+.CertificateCard-module__ko5nrG__descriptionTitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  font-family: DM Sans, sans-serif;
+}
+
+.CertificateCard-module__ko5nrG__descriptionTitleUnlocked {
+  color: var(--color-primary-900);
+}
+
+.CertificateCard-module__ko5nrG__descriptionTitleLocked {
+  color: var(--color-neutral-400);
+}
+
+.CertificateCard-module__ko5nrG__descriptionText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: DM Sans, sans-serif;
+  margin-top: 8px;
+}
+
+.CertificateCard-module__ko5nrG__descriptionTextUnlocked {
+  color: var(--color-primary-700);
+}
+
+.CertificateCard-module__ko5nrG__descriptionTextLocked {
+  color: var(--color-neutral-400);
+}
+
+.CertificateCard-module__ko5nrG__imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.CertificateCard-module__ko5nrG__image {
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.CertificateCard-module__ko5nrG__downloadButton {
+  margin-top: 24px;
+  padding: 8px 24px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: #0000;
+  cursor: pointer;
+  transition: background-color .3s, color .3s;
+}
+
+.CertificateCard-module__ko5nrG__downloadButton:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.CertificateCard-module__ko5nrG__socialContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.CertificateCard-module__ko5nrG__socialIcon {
+  width: 20px;
+  height: 20px;
+  transition: transform .2s ease-in-out;
+}
+
+.CertificateCard-module__ko5nrG__socialIcon:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=styles_CertificateCard_module_b52d8e.css.map*/

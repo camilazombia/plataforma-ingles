@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React from "react";
 import { useRouter } from "next/navigation";
@@ -9,13 +9,10 @@ const LogoutButton: React.FC = () => {
   const { theme } = useTheme();
 
   const handleLogout = () => {
-    // Eliminar token de sesión (simulado)
     document.cookie = "authToken=; path=/; max-age=0";
-    // Redirigir al login
     router.push("/login");
   };
 
-  // Seleccionar ícono según el tema
   const logoutIcon =
     theme === "dark"
       ? "/assets/dark/logout.svg"
@@ -24,7 +21,7 @@ const LogoutButton: React.FC = () => {
   return (
     <button
       onClick={handleLogout}
-      className="flex items-center gap-2 text-sm text-foreground hover:text-primary-900 transition"
+      className="flex items-center gap-2 text-sm text-[var(--color-danger)] hover:text-[var(--color-danger-hover)] transition"
     >
       <img src={logoutIcon} alt="Logout" className="w-5 h-5" />
       <span>Cerrar sesión</span>

@@ -1,0 +1,21 @@
+/* [project]/styles/login.css [app-client] (css) */
+.container-form {
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.container-input-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.checkbox-container {
+  color: var(--color-primary-900);
+  justify-content: space-between;
+  align-items: center;
+  font-size: .875rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=styles_login_css_f9ee138c._.single.css.map*/

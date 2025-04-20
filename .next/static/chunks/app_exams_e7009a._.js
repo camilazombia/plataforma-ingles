@@ -11,44 +11,114 @@ __turbopack_esm__({
 const questionsData = {
     101: [
         {
-            question: "What is the first letter of the English alphabet?",
+            question: "🔊 ¿Qué letra escuchas? / What letter do you hear?",
             options: [
                 "A",
                 "B",
                 "C",
                 "D"
             ],
-            correctAnswer: "A"
+            correctAnswer: "B",
+            audioUrl: "/audio/letters/B.mp3"
         },
         {
-            question: "What is 2 + 2?",
-            options: [
-                "3",
-                "4",
-                "5",
-                "6"
-            ],
-            correctAnswer: "4"
-        },
-        {
-            question: "Which of these is an even number?",
+            question: "🔊 ¿Qué número escuchas? / What number do you hear?",
             options: [
                 "1",
                 "3",
                 "5",
                 "2"
             ],
-            correctAnswer: "2"
+            correctAnswer: "2",
+            audioUrl: "/audio/numbers/2.mp3"
         },
         {
-            question: "How many vowels are in the English alphabet?",
+            question: "🔊 ¿Qué letra escuchas? / What letter do you hear?",
             options: [
+                "M",
+                "N",
+                "L",
+                "K"
+            ],
+            correctAnswer: "M",
+            audioUrl: "/audio/letters/M.mp3"
+        },
+        {
+            question: "🔊 ¿Qué número escuchas? / What number do you hear?",
+            options: [
+                "4",
                 "5",
                 "6",
-                "4",
-                "7"
+                "3"
             ],
-            correctAnswer: "5"
+            correctAnswer: "5",
+            audioUrl: "/audio/numbers/5.mp3"
+        },
+        {
+            question: "🔊 ¿Qué letra escuchas? / What letter do you hear?",
+            options: [
+                "S",
+                "T",
+                "R",
+                "Z"
+            ],
+            correctAnswer: "Z",
+            audioUrl: "/audio/letters/Z.mp3"
+        },
+        {
+            question: "🔊 ¿Qué número escuchas? / What number do you hear?",
+            options: [
+                "6",
+                "7",
+                "9",
+                "8"
+            ],
+            correctAnswer: "7",
+            audioUrl: "/audio/numbers/7.mp3"
+        },
+        {
+            question: "🔊 ¿Qué letra escuchas? / What letter do you hear?",
+            options: [
+                "F",
+                "H",
+                "G",
+                "J"
+            ],
+            correctAnswer: "H",
+            audioUrl: "/audio/letters/H.mp3"
+        },
+        {
+            question: "🔊 ¿Qué número escuchas? / What number do you hear?",
+            options: [
+                "10",
+                "9",
+                "8",
+                "6"
+            ],
+            correctAnswer: "9",
+            audioUrl: "/audio/numbers/9.mp3"
+        },
+        {
+            question: "🔊 ¿Qué letra escuchas? / What letter do you hear?",
+            options: [
+                "C",
+                "G",
+                "B",
+                "D"
+            ],
+            correctAnswer: "C",
+            audioUrl: "/audio/letters/C.mp3"
+        },
+        {
+            question: "🔊 ¿Qué número escuchas? / What number do you hear?",
+            options: [
+                "3",
+                "1",
+                "2",
+                "4"
+            ],
+            correctAnswer: "1",
+            audioUrl: "/audio/numbers/1.mp3"
         }
     ],
     // 📌 Módulo 102: Greetings and Basic Politeness
@@ -398,7 +468,7 @@ __turbopack_esm__({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$exams$2f$data$2f$questions$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/exams/data/questions.ts [app-client] (ecmascript)"); // ✅ Ajustamos la ruta
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$exams$2f$data$2f$questions$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/exams/data/questions.ts [app-client] (ecmascript)"); // Asegúrate de que la ruta sea correcta
 ;
 var _s = __turbopack_refresh__.signature();
 "use client";
@@ -416,12 +486,13 @@ const ExamPage = ()=>{
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ExamPage.useEffect": ()=>{
-            console.log("📌 Cargando examen para moduleId:", moduleId);
-            if (moduleId && __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$exams$2f$data$2f$questions$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"][moduleId]) {
-                setQuestions(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$exams$2f$data$2f$questions$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"][moduleId]);
+            const id = Array.isArray(moduleId) ? moduleId[0] : moduleId;
+            console.log("📌 Cargando examen para moduleId:", id);
+            if (id && __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$exams$2f$data$2f$questions$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"][id]) {
+                setQuestions(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$exams$2f$data$2f$questions$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"][id]);
             } else {
-                console.error(`❌ No se encontraron preguntas para el módulo ${moduleId}`);
-                setQuestions([]); // 🔥 Evita que `questions` sea undefined
+                console.error(`❌ No se encontraron preguntas para el módulo ${id}`);
+                setQuestions([]);
             }
             setLoading(false);
         }
@@ -469,7 +540,7 @@ const ExamPage = ()=>{
                 children: "⬅ Volver"
             }, void 0, false, {
                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                lineNumber: 67,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -477,7 +548,7 @@ const ExamPage = ()=>{
                 children: "Desafío de Conocimiento"
             }, void 0, false, {
                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                lineNumber: 71,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -485,25 +556,17 @@ const ExamPage = ()=>{
                 children: "Cargando preguntas..."
             }, void 0, false, {
                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                lineNumber: 74,
+                lineNumber: 82,
                 columnNumber: 9
             }, this) : questions.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-center text-red-500",
                 children: "⚠️ No hay preguntas disponibles para este módulo."
             }, void 0, false, {
                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                lineNumber: 76,
+                lineNumber: 84,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-center text-gray-600",
-                        children: questions[currentQuestion]?.title || "Pregunta sin título"
-                    }, void 0, false, {
-                        fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                        lineNumber: 79,
-                        columnNumber: 11
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-right text-gray-500",
                         children: [
@@ -514,23 +577,58 @@ const ExamPage = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                        lineNumber: 80,
+                        lineNumber: 89,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-4",
-                        children: questions[currentQuestion]?.options?.map((option, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: `block w-full p-2 border rounded mb-2 ${answers[currentQuestion] === option ? "bg-blue-500 text-white" : "bg-white"}`,
-                                onClick: ()=>handleAnswer(option),
-                                children: option
-                            }, index, false, {
+                        className: "w-full max-w-lg bg-white rounded shadow p-4 mt-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-lg text-center mb-2",
+                                children: questions[currentQuestion]?.question || "Pregunta sin título"
+                            }, void 0, false, {
                                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                                lineNumber: 85,
+                                lineNumber: 95,
+                                columnNumber: 13
+                            }, this),
+                            questions[currentQuestion]?.audioUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-center mb-4",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("audio", {
+                                    controls: true,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                            src: questions[currentQuestion].audioUrl,
+                                            type: "audio/mpeg"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/exams/[moduleId]/page.tsx",
+                                            lineNumber: 103,
+                                            columnNumber: 19
+                                        }, this),
+                                        "Tu navegador no soporta audio."
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/exams/[moduleId]/page.tsx",
+                                    lineNumber: 102,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/exams/[moduleId]/page.tsx",
+                                lineNumber: 101,
                                 columnNumber: 15
-                            }, this))
-                    }, void 0, false, {
+                            }, this),
+                            questions[currentQuestion]?.options?.map((option, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: `block w-full p-2 border rounded mb-2 text-left ${answers[currentQuestion] === option ? "bg-blue-500 text-white" : "bg-white"}`,
+                                    onClick: ()=>handleAnswer(option),
+                                    children: option
+                                }, index, false, {
+                                    fileName: "[project]/app/exams/[moduleId]/page.tsx",
+                                    lineNumber: 114,
+                                    columnNumber: 15
+                                }, this))
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                        lineNumber: 83,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -543,7 +641,7 @@ const ExamPage = ()=>{
                                 children: "Anterior Pregunta"
                             }, void 0, false, {
                                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                                lineNumber: 98,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -552,25 +650,25 @@ const ExamPage = ()=>{
                                 children: currentQuestion === questions.length - 1 ? "Finalizar" : "Siguiente"
                             }, void 0, false, {
                                 fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                                lineNumber: 101,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                        lineNumber: 97,
+                        lineNumber: 129,
                         columnNumber: 11
                     }, this),
                     score !== null && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-4 text-lg font-semibold text-center",
                         children: [
                             "Tu puntuación: ",
-                            score,
+                            score.toFixed(1),
                             " / 10"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/exams/[moduleId]/page.tsx",
-                        lineNumber: 107,
+                        lineNumber: 147,
                         columnNumber: 13
                     }, this)
                 ]
@@ -578,7 +676,7 @@ const ExamPage = ()=>{
         ]
     }, void 0, true, {
         fileName: "[project]/app/exams/[moduleId]/page.tsx",
-        lineNumber: 66,
+        lineNumber: 71,
         columnNumber: 5
     }, this);
 };

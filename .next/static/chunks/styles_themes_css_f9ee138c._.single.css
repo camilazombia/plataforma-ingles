@@ -1,0 +1,36 @@
+/* [project]/styles/themes.css [app-client] (css) */
+:root {
+  --color-base-100: #f0f4ff;
+  --color-neutral-200: #c7cfe5;
+  --color-neutral-400: #a9b8b5;
+  --color-neutral-600: #5d6b80;
+  --color-primary-700: #3f4f66;
+  --color-primary-900: #2a3c54;
+  --primary-color: #c34e9e;
+  --background-1: #fff;
+  --background-2: #f2f2f2;
+  --background-3: #dedede;
+  --success: #46e5a1;
+  --warning: #e58f46;
+  --danger: #e5465a;
+  --info: #4680e5;
+}
+
+.dark {
+  --color-base-100: #2a3c54;
+  --color-neutral-200: #3f4f66;
+  --color-neutral-400: #5d6b80;
+  --color-neutral-600: #a9b8b5;
+  --color-primary-700: #c7cfe5;
+  --color-primary-900: #f0f4ff;
+  --primary-color: #c34e9e;
+  --background-1: #1e1e1e;
+  --background-2: #2d2d2d;
+  --background-3: #505050;
+  --success: #46e5a1;
+  --warning: #e58f46;
+  --danger: #e5465a;
+  --info: #4680e5;
+}
+
+/*# sourceMappingURL=styles_themes_css_f9ee138c._.single.css.map*/

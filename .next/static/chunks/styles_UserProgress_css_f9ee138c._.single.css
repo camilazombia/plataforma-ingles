@@ -1,0 +1,86 @@
+/* [project]/styles/UserProgress.css [app-client] (css) */
+.user-progress {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.welcome h1 {
+  color: var(--color-primary-900);
+}
+
+.welcome h2 {
+  color: var(--primary-color);
+}
+
+.levels {
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.level__icon-container {
+  background-color: var(--background-1);
+  border: 4px solid var(--primary-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  transition: border-color .3s, box-shadow .3s;
+  display: flex;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.level__icon-container.active {
+  border-color: var(--primary-color);
+}
+
+.level__icon-container.locked {
+  border-color: var(--color-neutral-400);
+  opacity: .5;
+}
+
+.level__line {
+  background-color: var(--color-neutral-400);
+  flex-grow: 1;
+  height: 2px;
+  transition: background-color .3s;
+}
+
+.level__line.active {
+  background-color: var(--primary-color);
+}
+
+.level__line.locked {
+  background-color: var(--color-neutral-400);
+}
+
+.level-title {
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-primary-900);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24.74px;
+}
+
+.level-subtitle {
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-neutral-600);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24.74px;
+}
+
+/*# sourceMappingURL=styles_UserProgress_css_f9ee138c._.single.css.map*/

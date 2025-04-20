@@ -20,34 +20,35 @@ const levels = [
                 title: "Getting Started: The English Alphabet and Numbers",
                 status: "completed",
                 description: "Aprende las bases del alfabeto inglés y números básicos para construir tu vocabulario.",
-                subtitle: "No",
-                videoUrl: "https://www.youtube.com/embed/example1",
+                subtitle: "Aprende las bases del alfabeto inglés y números básicos para construir tu vocabulario.",
+                videoUrl: "/assets/video/Modulo 1.mp4",
+                extraText: {
+                    downloads: [
+                        {
+                            label: "Descargar Abecedario",
+                            url: "/downloads/abecedario.pdf"
+                        },
+                        {
+                            label: "Guía de Números",
+                            url: "/downloads/numeros.pdf"
+                        }
+                    ]
+                },
                 resources: [
                     {
                         id: 1,
                         name: "Ejercicio del Alfabeto",
                         path: "/resources/1",
-                        component: "AlphabetExercise"
+                        component: "AlphabetExercise",
+                        description: "esto solo es una prueba",
+                        image: "/assets/img/ejercicio-alfabeto.png"
                     },
                     {
                         id: 2,
                         name: "Práctica de Números",
                         path: "/resources/2",
-                        component: "NumbersPractice"
-                    },
-                    {
-                        id: 3,
-                        name: "Guía Básica de Pronunciación",
-                        path: "/resources/3",
-                        component: "PronunciationGuide"
-                    },
-                    {
-                        id: 4,
-                        name: "Hoja de Trabajo: Letras"
-                    },
-                    {
-                        id: 5,
-                        name: "Juego de Vocabulario"
+                        component: "NumbersPractice",
+                        image: "/assets/img/practica-numeros.png"
                     }
                 ]
             },

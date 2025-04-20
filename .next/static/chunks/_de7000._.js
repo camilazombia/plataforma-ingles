@@ -20,34 +20,35 @@ const levels = [
                 title: "Getting Started: The English Alphabet and Numbers",
                 status: "completed",
                 description: "Aprende las bases del alfabeto inglés y números básicos para construir tu vocabulario.",
-                subtitle: "No",
-                videoUrl: "https://www.youtube.com/embed/example1",
+                subtitle: "Aprende las bases del alfabeto inglés y números básicos para construir tu vocabulario.",
+                videoUrl: "/assets/video/Modulo 1.mp4",
+                extraText: {
+                    downloads: [
+                        {
+                            label: "Descargar Abecedario",
+                            url: "/downloads/abecedario.pdf"
+                        },
+                        {
+                            label: "Guía de Números",
+                            url: "/downloads/numeros.pdf"
+                        }
+                    ]
+                },
                 resources: [
                     {
                         id: 1,
                         name: "Ejercicio del Alfabeto",
                         path: "/resources/1",
-                        component: "AlphabetExercise"
+                        component: "AlphabetExercise",
+                        description: "esto solo es una prueba",
+                        image: "/assets/img/ejercicio-alfabeto.png"
                     },
                     {
                         id: 2,
                         name: "Práctica de Números",
                         path: "/resources/2",
-                        component: "NumbersPractice"
-                    },
-                    {
-                        id: 3,
-                        name: "Guía Básica de Pronunciación",
-                        path: "/resources/3",
-                        component: "PronunciationGuide"
-                    },
-                    {
-                        id: 4,
-                        name: "Hoja de Trabajo: Letras"
-                    },
-                    {
-                        id: 5,
-                        name: "Juego de Vocabulario"
+                        component: "NumbersPractice",
+                        image: "/assets/img/practica-numeros.png"
                     }
                 ]
             },
@@ -1184,6 +1185,14 @@ const ResourcePage = ()=>{
                 id: ()=>"[project]/components/exercises/AlphabetExercise.tsx [app-client] (ecmascript, async loader)",
                 module: ()=>__turbopack_require__("[project]/components/exercises/AlphabetExercise.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
             },
+            "../../../components/exercises/BackButton": {
+                id: ()=>"[project]/components/exercises/BackButton.tsx [app-client] (ecmascript, async loader)",
+                module: ()=>__turbopack_require__("[project]/components/exercises/BackButton.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
+            },
+            "../../../components/exercises/BackButton.tsx": {
+                id: ()=>"[project]/components/exercises/BackButton.tsx [app-client] (ecmascript, async loader)",
+                module: ()=>__turbopack_require__("[project]/components/exercises/BackButton.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
+            },
             "../../../components/exercises/NumbersPractice": {
                 id: ()=>"[project]/components/exercises/NumbersPractice.tsx [app-client] (ecmascript, async loader)",
                 module: ()=>__turbopack_require__("[project]/components/exercises/NumbersPractice.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
@@ -1199,6 +1208,14 @@ const ResourcePage = ()=>{
             "../../../components/exercises/PronunciationGuide.tsx": {
                 id: ()=>"[project]/components/exercises/PronunciationGuide.tsx [app-client] (ecmascript, async loader)",
                 module: ()=>__turbopack_require__("[project]/components/exercises/PronunciationGuide.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
+            },
+            "../../../components/exercises/WorkshopLayout": {
+                id: ()=>"[project]/components/exercises/WorkshopLayout.tsx [app-client] (ecmascript, async loader)",
+                module: ()=>__turbopack_require__("[project]/components/exercises/WorkshopLayout.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
+            },
+            "../../../components/exercises/WorkshopLayout.tsx": {
+                id: ()=>"[project]/components/exercises/WorkshopLayout.tsx [app-client] (ecmascript, async loader)",
+                module: ()=>__turbopack_require__("[project]/components/exercises/WorkshopLayout.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__)
             }
         }).import(`../../../components/exercises/${resource.component}`).then((mod)=>mod.default), {
         ssr: false

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/plataforma/plataforma-ingles/app/%28auth%29/layout.tsx"],"sourcesContent":["// app/(auth)/layout.tsx\r\nexport default function AuthLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <html lang=\"es\">\r\n      <body>\r\n        <main className=\"flex min-h-screen items-center justify-center bg-background text-foreground\">\r\n          {children}\r\n        </main>\r\n      </body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,wBAAwB;;;;;;AACT,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAK,WAAU;0BACb;;;;;;;;;;;;;;;;AAKX","debugId":null}}]
+}

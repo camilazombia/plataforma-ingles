@@ -160,3 +160,81 @@
     
 
 
+/* ========================
+   ALPHABET EXERCISE STYLES
+======================== */
+
+.alphabet-exercise {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.letter-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Botón de reproducción (▶) */
+.btn-play {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 1rem;
+  background-color: var(--success);
+  color: var(--background-1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-play:hover {
+  filter: brightness(1.1);
+}
+
+/* Feedback de verificación */
+.feedback-icon {
+  font-size: 1.2rem;
+}
+
+.feedback-icon.correct {
+  color: var(--success);
+}
+
+.feedback-icon.wrong {
+  color: var(--danger);
+}
+
+.exercise-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+
+.sidebar-custom {
+  background-color: var(--background-2);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed; /* 👈 Esto hace que no se mueva nunca */
+}
+
+

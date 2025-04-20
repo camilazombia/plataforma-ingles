@@ -10,15 +10,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        primary: "var(--primary)",
-        secondary: "var(--secondary)",
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        primary: 'var(--primary)',
+        secondary: 'var(--secondary)',
+        backgroundPrimary: 'var(--background-primary)',
+        backgroundSecondary: 'var(--background-2)',
       },
       fontFamily: {
-        sans: ["DM Sans", "sans-serif"], // Agrega la fuente DM Sans
+        sans: ['DM Sans', 'sans-serif'],
       },
-    },
+    }
+    
   },
   plugins: [],
 } satisfies Config;

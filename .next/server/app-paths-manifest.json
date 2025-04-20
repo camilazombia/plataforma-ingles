@@ -1,12 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/progress/module/[id]/page": "app/progress/module/[id]/page.js",
-  "/resources/page": "app/resources/page.js",
-  "/support/page": "app/support/page.js",
-  "/certificates/page": "app/certificates/page.js",
-  "/resources/[id]/page": "app/resources/[id]/page.js",
-  "/progress/module/[id]/exam/page": "app/progress/module/[id]/exam/page.js",
-  "/exams/[moduleId]/page": "app/exams/[moduleId]/page.js"
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/reset-password/page": "app/(auth)/reset-password/page.js",
+  "/(with-sidebar)/page": "app/(with-sidebar)/page.js",
+  "/(with-sidebar)/resources/page": "app/(with-sidebar)/resources/page.js",
+  "/(with-sidebar)/support/page": "app/(with-sidebar)/support/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

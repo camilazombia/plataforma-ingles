@@ -1,0 +1,200 @@
+/* [project]/styles/components.css [app-client] (css) */
+input {
+  border: 1px solid var(--color-neutral-200);
+  width: 100%;
+  color: var(--color-primary-900);
+  background-color: var(--background-1);
+  border-radius: 8px;
+  padding: .75rem;
+  font-size: 1rem;
+  transition: border-color .3s, background-color .3s, color .3s;
+}
+
+.dark input {
+  border-color: var(--color-neutral-400);
+  background-color: var(--background-1);
+  color: var(--color-base-100);
+}
+
+input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 4px #ec489933;
+}
+
+.error-message {
+  color: var(--danger);
+  margin-top: .5rem;
+  font-size: .875rem;
+}
+
+.button--primary {
+  background-color: var(--primary-color);
+  color: var(--background-1);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-700);
+}
+
+.button--secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  background-color: #0000;
+  border-radius: 8px;
+  width: 100%;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color .3s, color .3s;
+}
+
+.button--secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--background-1);
+}
+
+.button--disabled {
+  background-color: var(--disabled-button-background);
+  color: var(--disabled-button-text);
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100%;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color .3s, color .3s;
+}
+
+.checkbox {
+  accent-color: var(--primary-color);
+  width: 20px;
+  margin-right: .5rem;
+}
+
+.link {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.link:hover {
+  color: var(--color-primary-700);
+  text-decoration: underline;
+}
+
+.help-text {
+  color: var(--color-neutral-600);
+  text-align: center;
+  font-size: .875rem;
+}
+
+.module {
+  font-size: 1rem;
+}
+
+.module-icon {
+  height: 1.8rem;
+}
+
+.module-card-completed {
+  background-color: var(--background-3);
+  color: var(--color-primary-700);
+}
+
+.module-card-active {
+  background-color: var(--primary-color);
+  color: var(--color-base-100);
+}
+
+.module-card-locked {
+  background-color: var(--background-3);
+  color: var(--color-neutral-400);
+}
+
+.card-level {
+  background-color: var(--background-2);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.alphabet-exercise {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.alphabet-grid {
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+}
+
+.letter-item {
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.btn-play {
+  background-color: var(--success);
+  width: 2rem;
+  height: 2rem;
+  color: var(--background-1);
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  font-size: 1rem;
+  transition: background-color .3s;
+}
+
+.btn-play:hover {
+  filter: brightness(1.1);
+}
+
+.feedback-icon {
+  font-size: 1.2rem;
+}
+
+.feedback-icon.correct {
+  color: var(--success);
+}
+
+.feedback-icon.wrong {
+  color: var(--danger);
+}
+
+.exercise-actions {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebar-custom {
+  background-color: var(--background-2);
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+}
+
+/*# sourceMappingURL=styles_components_css_f9ee138c._.single.css.map*/

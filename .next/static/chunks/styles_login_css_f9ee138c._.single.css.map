@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/login.css"],"sourcesContent":["/* Estilos globales para LoginForm */\r\n\r\n\r\n\r\n/* Contenedor principal del formulario */\r\n.container-form {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 1.5rem; /* Más separación entre los elementos */\r\n  }\r\n  \r\n  \r\n  /* Contenedor de cada input */\r\n  .container-input-group {\r\n    position: relative;\r\n    margin-bottom: 1rem; /* Espaciado entre campos */\r\n  }\r\n\r\n  .checkbox-container {\r\n      display: flex;\r\n      justify-content: space-between;\r\n      align-items: center;\r\n      font-size: 0.875rem; /* text-sm */\r\n      color: var(--color-primary-900);\r\n  }\r\n  \r\n\r\n"],"names":[],"mappings":"AAKA;;;;;;AAQE;;;;;AAKA"}}]
+}

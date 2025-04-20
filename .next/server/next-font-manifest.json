@@ -1,14 +1,10 @@
 {
   "app": {
-    "[project]/app/page": [],
-    "[project]/app/_not-found/page": [],
-    "[project]/app/progress/module/[id]/page": [],
-    "[project]/app/resources/page": [],
-    "[project]/app/support/page": [],
-    "[project]/app/certificates/page": [],
-    "[project]/app/resources/[id]/page": [],
-    "[project]/app/progress/module/[id]/exam/page": [],
-    "[project]/app/exams/[moduleId]/page": []
+    "[project]/app/(auth)/login/page": [],
+    "[project]/app/(auth)/reset-password/page": [],
+    "[project]/app/(with-sidebar)/page": [],
+    "[project]/app/(with-sidebar)/resources/page": [],
+    "[project]/app/(with-sidebar)/support/page": []
   },
   "appUsingSizeAdjust": true,
   "pages": {},
